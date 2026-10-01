@@ -30,7 +30,7 @@ export default function Index() {
      
  
       <View style={styles.tituloContainer}>
-         <Text style={[styles.titulo, styles.destaque]}>JukaBala</Text>
+         <Text style={[styles.titulo, styles.destaque]}>Agatha</Text>
          <Text style={styles.titulo}> Store</Text>
       </View>
       <Text style={styles.texto}>Aqui seu dinheiro rende mais!!</Text>
@@ -60,12 +60,14 @@ const styles = StyleSheet.create({
   titulo: {
     fontSize: 30,
     fontWeight: "900",
+        color: "#f60374",
+
   },
   texto: {
     fontSize: 15,
   },
   destaque: {
-    color: "#E67a31",
+    color: "#ff69af",
   },
 });
  
